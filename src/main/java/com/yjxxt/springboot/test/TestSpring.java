@@ -14,5 +14,6 @@ public class TestSpring {
         appBean.test01();
         System.out.println(app.isSingleton("userService"));
         System.out.println(app.isSingleton("iocConfig"));
+        System.out.println("");
     }
 }
